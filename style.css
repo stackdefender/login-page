@@ -1,0 +1,77 @@
+.head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("pexels-pixabay-235985.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.top{
+    border:2px solid white;
+    width: 300px;
+    height: 365px;
+    text-align: center;
+    border: none;
+    background-image: url("pexels-eberhardgross-2088170.jpg");
+    background-size: cover;
+    background-position:center ;
+
+}
+.top:hover{
+    box-shadow: 0px 0px 20px black;
+}
+.input{
+   line-height: 50px;
+}
+.username{
+    border:none;
+    border: 2px solid white;
+    border-radius:100px ;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+}
+.username:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.submit{
+    margin-top: 20px;
+    border:2px solid black;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    font-size: 20px;
+    color: aliceblue;
+    border:none;
+}
+.submit:hover{
+    background-color: rgb(0, 17, 255);
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px white;
+}
+.sign{
+    line-height: 5px;
+    
+}
+.check{
+    font-size: large;
+    margin-right: 50px;
+}
+.agree{
+    font-size: larger;
+    margin-right: 30px;
+    
+}
+.important:hover{
+    color:red;
+}
+
